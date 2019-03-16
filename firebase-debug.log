@@ -1,0 +1,25 @@
+[debug] [2019-03-16T16:26:47.101Z] ----------------------------------------------------------------------
+[debug] [2019-03-16T16:26:47.104Z] Command:       /usr/bin/node /usr/local/bin/firebase serve
+[debug] [2019-03-16T16:26:47.104Z] CLI Version:   6.5.0
+[debug] [2019-03-16T16:26:47.104Z] Platform:      linux
+[debug] [2019-03-16T16:26:47.104Z] Node Version:  v8.10.0
+[debug] [2019-03-16T16:26:47.104Z] Time:          Sat Mar 16 2019 13:26:47 GMT-0300 (-03)
+[debug] [2019-03-16T16:26:47.104Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-03-16T16:26:47.111Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-03-16T16:26:47.111Z] > authorizing via signed-in user
+[debug] [2019-03-16T16:26:47.112Z] [iam] checking project my-expenses-deeae for permissions ["firebase.projects.get"]
+[debug] [2019-03-16T16:26:47.113Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/my-expenses-deeae:testIamPermissions  
+
+[debug] [2019-03-16T16:26:48.312Z] <<< HTTP RESPONSE 200
+[debug] [2019-03-16T16:26:48.318Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/my-expenses-deeae  
+ 
+[debug] [2019-03-16T16:26:49.495Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/sheipi/Projects/my-expenses-v2'...
+[info] 
+[debug] [2019-03-16T16:26:49.498Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/953941569853/clients/_:getWebAppConfig  
+ 
+[debug] [2019-03-16T16:26:50.108Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000

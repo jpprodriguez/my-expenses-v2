@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "dev-server": "my-expenses-deeae",
+    "default": "my-expenses-deeae"
+  }
+}
